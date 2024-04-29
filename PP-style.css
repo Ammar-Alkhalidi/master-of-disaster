@@ -1,0 +1,225 @@
+/* background-image */
+
+.background-image {
+  background-image: url("./media/mainback.jpg");
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  position: fixed;
+  z-index: -1;
+}
+
+/* header */
+
+header {
+  font-family: "CARTOON FREE", sans-serif;
+  background-color: #00000041;
+  color: #e98221b0;
+  border-radius: 30px;
+  padding: 20px;
+  text-align: center;
+}
+header.a {
+  font-family: "CARTOON FREE", sans-serif;
+  text-align: center;
+  color: #e95021ab;
+}
+
+main {
+  padding: 20px;
+}
+main.a {
+  color: rgba(228, 97, 10, 0.719);
+  font-family: "CARTOON FREE", sans-serif;
+}
+
+.bio {
+  border-radius: 40px;
+  margin: 100px;
+
+  border: rgba(223, 211, 46, 0.192) 2px solid;
+}
+p {
+  background-color: #0000009a;
+  color: rgb(255, 255, 254);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-size: larger;
+  text-align: justify;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  border-radius: 40px;
+}
+
+.before-ytb {
+  background-color: #02020242;
+  border-radius: 30px;
+}
+h3 {
+  color: rgb(253, 253, 255);
+  background-color: #8183129f;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: larger;
+  text-align: justify;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  margin: 20px;
+  padding: 30px;
+}
+/* <!-- YouTube Video Link with Play Button --> */
+.ytb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 50px;
+}
+/* footer  */
+footer {
+  background-color: #110101a8;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+footer.a {
+  font-family: "CARTOON FREE", sans-serif;
+  text-align: center;
+  color: #21e96eab;
+}
+
+/* --------------------------------------------------------- */
+/* offer page-PPOFFER */
+
+/* Offer Page Pckgrons Img*/
+.offerbckgrd {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+
+  background-image: url("./media/PPoffer.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* table */
+table {
+  text-align: justify;
+  font-family: "Times New Roman", Times, serif;
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+}
+
+tr:nth-child(odd) {
+  background-color: #8b8a8a9a;
+  text-align: justify;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+}
+
+th {
+  background-color: #635e5ca9;
+  color: #f1ecec;
+  text-align: justify;
+  font-family: "Times New Roman", Times, serif;
+  font-size: large;
+}
+
+th,
+td {
+  padding: 50px;
+  text-align: justify;
+  font-family: "Times New Roman", Times, serif;
+  font-size: large;
+}
+
+/* ------------------------------------------------ */
+
+/* page-03-PP-About */
+
+/* About Page Pckgrons Img*/
+.aboutbckgrd {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+
+  background-image: url("./media/aboutpage3.jpeg"); 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center; 
+}
+
+.about-mod {
+  border-radius: 40px;
+  margin: 100px;
+
+  border: rgba(206, 30, 98, 0.63) 2px solid;
+}
+about-mod.p {
+  background-color: #0000009a;
+  color: rgb(255, 255, 254);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-size: larger;
+  text-align: justify;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  border-radius: 40px;
+}
+#strong {
+  color: red;
+}
+ul{
+  color: rgb(243, 243, 243);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #db60609a;
+  border-radius: 40px;
+  align-items: center;
+  padding: 40px;
+  border-radius: 40px;
+  font-size: larger;
+}
+
+/* -------------------------------------------------------- */
+
+/* page-04-PP-Contact */
+
+h2 {
+  color: rgba(185, 48, 6, 0.836);
+}
+.contactbckgrd {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+
+  /* Contact Page Pckgrons Img*/
+  background-image: url("./media/contactus-4.jpg");
+  background-size: cover; /* Cover the entire viewport */
+  background-repeat: no-repeat; /* No repeating */
+  background-position: center; /* Center the image */
+}
+/* Contact-Datails */
+.cont-details {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 20px;
+  margin: 20px;
+}
